@@ -1,0 +1,52 @@
+
+
+.accordion {
+	width: 90%;
+	max-width: 70em;
+	margin: 0 auto;
+	padding: 0 1.875em 3.125em 1.875em;
+}
+
+.icon-drop:before, 
+.icon-arrow-left:before {
+	font-family: 'fontawesome';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+	text-align: center;
+	color: #47a3da;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 8000px;
+	padding-left: 8px;
+}
+
+.container > header nav a:hover:before {
+	color: #fff;
+}
+
+.icon-drop:before {
+	content: "\e000";
+}
+
+.icon-arrow-left:before {
+	content: "\f060";
+}
+
+/**Accordion CEE EDITS**/
+.accordion {
+	margin-top: 40px !important;
+}
+
+.cbp-ntaccordion h3 {
+    font-size: 1.8em !important;
+    font-weight: 500 !important;
+}
+
+#cbp-ntaccordion li {
+    border: 1px solid #ababab80;
+}
