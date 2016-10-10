@@ -238,3 +238,9 @@ input[type="submit"]:active {
 	font-weight: 300;
 	line-height: 150%;
 }
+
+@media screen and (max-width: 1078px) {
+	section#quotation { 
+    	padding: 7em 3em;
+	}
+}
