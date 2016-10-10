@@ -16,10 +16,17 @@ body {
 }
 
 #welcome h2 {
-	padding: 10% 10%;
-	font-size: 2em;
+	padding: 5% 10%;
+	font-size: 2.5em;
 	font-weight: 300;
+	line-height: 140%;
+	font-size: 3em;
 }
+
+#welcome h2 span {
+	color: #27496d;
+}
+
 
 .start {
     float: right;
@@ -27,10 +34,14 @@ body {
 }
 
 .start-button {
+	font-family: 'Lato', Arial, sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+
 	-webkit-appearance: button;
     cursor: pointer;
     color: #fff;
-    background-color: #346392;
+    background-color: #27496d;
     border: none;
     display: inline-block;
     margin: 20px 10px 0 0;
@@ -130,7 +141,7 @@ ul.website li {
 .hr2:before {
 	display: block; content: ""; 
 	height: 30px;
-	margin-top: -31px;
+	margin-top: -30px;
 	border-style: solid;
 	border-color: black;
 	border-width: 0 0 1px 0;
@@ -171,34 +182,28 @@ input[type="submit"]:active {
 	background-color: #27496d;
 }
 
-
-/**Accordion Section**/
-.accordion {
-	margin-top: 40px !important;
-}
-
-.cbp-ntaccordion h3 {
-    font-size: 2em !important;
-    font-weight: 500 !important;
-}
-
 /**Quotation Section**/
 .q-col p {
 	font-size: 2em;
+	text-align: left;
 }
 
 .left {
 	width: 50%;
 	float: left;
-	background: #888;
+	background: #aaa;
 	padding: 4em;
 }
 
 .right {
 	width: 50%;
 	float: right;
-	background: #ccc;
+	background: #ddd;
 	padding: 4em;
+}
+
+.ac-custom {
+	padding: 0 !important;
 }
 
 @media screen and (max-width: 680px) {
@@ -208,3 +213,28 @@ input[type="submit"]:active {
   }
 }
 
+.naahim-checklist li span {
+	font-weight: 400;
+}
+.sp-text {
+	color: #27496d;
+	font-weight: 400;
+}
+.sps-text {
+	color: #27496d;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.free-text {
+	position: relative;
+	top: -2px;
+	border-bottom: solid #27496d 2px;
+}
+
+.twala-texts {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 1.7em;
+	font-weight: 300;
+	line-height: 150%;
+}

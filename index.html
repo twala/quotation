@@ -13,9 +13,6 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/twala.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<link rel="stylesheet" type="text/css" href="css/acc-default.css" />
-		<link rel="stylesheet" type="text/css" href="css/acc-component.css" />
-		<script src="js/acc-modernizr.custom.js"></script>
 		<script src="js/modernizr.custom.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script>
@@ -48,165 +45,162 @@
 	<body>
 		<div class="container">
 			<section id="welcome">
-				<h2 style="text-align: center;">We have made this questionnaire as simple as possible. <br>This is personally made for you so please answer thoroughly.</h2>
+				<h2 style="text-align: left;">
+					Hi <span>Naah!im Bakery</span>, we are Twala.
+				<br>
+					Here is our quotation that we personally created fo you.
+				</h2>
 			
-				<span class="start"><a href="#questionnaire"><button class="start-button"> Let's Start</button></a></span>
+				<span class="start"><a href="#questionnaire"><button class="start-button"> Let's start</button></a></span>
 			</section>
 
 			<section id="questionnaire">
-				<form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+				
 					<!--<h2 style="text-align: center;">We have made this questionnaire as simple as possible. <br>This is personally made for you so please answer thoroughly.</h2>
 					<br>
 					<hr class="hr1">-->
+				<form action="submit.php" method="post" class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
 
-					<h1>CONTENTS</h1>
-					<ul class="contents">
-						<li class="text-only">Photo</li>						
-						<ul>
-							<li class="checked"><input id="q1-1" name="q1" type="checkbox" checked><label for="q1-1">food number of items/shots [<input type="text" id="textbox" maxlength="4" />]</label></li>			
-							<li class="checked"><input id="q1-2" name="q1" type="checkbox" checked><label for="q1-2">chefs number of shots [<input type="text" id="textbox" maxlength="4" />]</label></li>
-							<li class="unchecked"><input id="q1-3" name="q1" type="checkbox"><label for="q1-3">owner number of shots [<input type="text" id="textbox" maxlength="4" />]</label></li>
-						</ul>
-						
-						<li class="text-only">Specialized Photo</li>
+					<h1> Multimedia Content</h1>
 
-						<ul>
-							<li class="checked"><input id="q2-1" name="q2" type="checkbox" checked><label for="q2-1">food (3D rotating) number of items/shots [<input type="text" id="textbox" maxlength="4" />]</label></li>			
-							<li class="unchecked"><input id="q2-2" name="q2" type="checkbox"><label for="q2-2">location (360 degree view) number of items/shots [<input type="text" id="textbox" maxlength="4" />]</label></li>
-						</ul>
-
-						<li class="text-only">Video</li>
-
-						<ul>
-							<li class="unchecked"><input id="q3-1" name="q3" type="checkbox"><label for="q3-1">Naah!im Bakery introduction <span class="italicized">(theme: business)</span></label></li>			
-							<li class="unchecked"><input id="q3-2" name="q3" type="checkbox"><label for="q3-2">Food product "commercial" <span class="italicized">(theme: products)</span></label></li>
-						</ul>
-
-						<li class="text-only">Text content</li>
-
-						<ul>
-							<li class="checked"><input id="q4-1" name="q4" type="checkbox" checked><label for="q4-1">website content * (number of sections)</label></li>			
-							<li class="unchecked"><input id="q4-2" name="q4" type="checkbox"><label for="q4-2">photo captions * (number of photos)</label></li>
-						</ul>
-					</ul>
-
-					<hr class="hr1">
-					<h1>DIGITAL MARKETING (SIMPLIFIED)</h1>
+					<ul class="naahim-checklist">
 					
-					<ul class="marketing">
-						<li class="text-only">includes search engine optimization and social media marketing</li>
-						<li class="text-only">Google search rank (within the next 8 weeks):</li>
-						<ul>
-							<li class="unchecked"><input id="q5-1" name="q5" type="checkbox"><label for="q5-1">Naah!im Bakery will be seen on the first page of Google search</label></li>			
-							<li class="unchecked"><input id="q5-2" name="q5" type="checkbox"><label for="q5-2">Naah!im Bakery will be on top 5 of search result</label></li>
-						</ul>
-						<li class="text-only no-bottom-padding">Social media visibility (within the next 8 weeks):</li>
-							<ul class="list-circle">
-								<li>the number of followers depend on the total approximate number of individuals in the targeted market</li>
-							</ul>
+						<li class="checked">
+							<input id="q1-1" name="q1" type="checkbox" checked>
+							<label for="q1-1"><span>50+ creative photos:</span> breads, breakfast, and main courses</label>
+						</li>
+
+						<li class="checked">
+							<input id="q1-1" name="q1" type="checkbox" checked>
+							<label for="q1-1"><span>360&#176; rotating photos:</span> top three specialties</label>
+						</li>
+
+						<li class="checked">
+							<input id="q1-1" name="q1" type="checkbox" checked>
+							<label for="q1-1"><span>3-4 portrait photos:</span> chefs (and owner)</label>
+						</li>
+						<li class="checked">
+							<input id="q1-1" name="q1" type="checkbox" checked>
+							<label for="q1-1"><span>creative video production:</span> business introduction <span style="text-decoration: underline; font-weight: 100;">or</span> food presentation</label>
+						</li>
+						<li class="checked">
+							<input id="q1-1" name="q1" type="checkbox" checked>
+							<label for="q1-1"><span>copywriting:</span> whole website text contents/articles (for primary website)</label>
+						</li>
+					
+					</ul>
+
+					<h1>Digital Marketing Strategy</h1>
+
+					<ul class="naahim-checklist">
+					
+						<li class="checked">
+							<input id="q1-1" name="q1" type="checkbox" checked>
+							<label for="q1-1"><span>social media marketing:</span> facebook, instagram, and twitter business profile setup and maintenance</label>
+						</li>
+
+						<li class="checked">
+							<input id="q1-1" name="q1" type="checkbox" checked>
+							<label for="q1-1"><span>content marketing:</span> search engine optimization of contents and post-analysis</label>
+						</li>
+
+						<li class="checked">
+							<input id="q1-1" name="q1" type="checkbox" checked>
+							<label for="q1-1"><span>marketing campaigns:</span> google adwords and facebook ads business setup</label>
+						</li>
+					
+					</ul>
+
+
+					<h1>Trusted Online Identity</h1>
+
+					<ul class="naahim-checklist">
+					
+						<li class="checked">
+							<input id="q1-1" name="q1" type="checkbox" checked>
+							<label for="q1-1"><span>online identity classification:</span> <span class="sp-text italicized">high end</span> <span style="text-decoration: underline; font-weight: 100;">or</span> <span class="sp-text italicized">world class</span>  design and techniques</label>
+						</li>
+
+						<li class="checked">
+							<input id="q1-1" name="q1" type="checkbox" checked>
+							<label for="q1-1"><span>web design:</span> unique and personalized user experience and design</label>
+						</li>
+
+
+
+						<li class="checked">
+							<input id="q1-1" name="q1" type="checkbox" checked>
+							<label for="q1-1"><span>web development:</span> the overall integration of contents, marketing, and design</label>
+						</li>
+					
 					</ul>
 
 					<hr class="hr1">
-					<h1>WEBSITE DESIGN AND DEVELOPMENT</h1>
-						<ul class="website">
-							<li class="unchecked"><input id="q6-1" name="q6-1" type="checkbox"><label for="q6-1">simple but attractive</label></li>			
-							<li class="unchecked"><input id="q6-2" name="q6-2" type="checkbox"><label for="q6-2">moderately stylized</label></li>
-							<li class="unchecked"><input id="q6-3" name="q6-3" type="checkbox"><label for="q6-3">high end</label></li>			
-							<li class="unchecked"><input id="q6-4" name="q6-4" type="checkbox"><label for="q6-4">world class</label></li>
-						</ul>
 
+					<h1>Post-completion services</h1>
+
+					<ul class="naahim-checklist">
+					
+						<li class="text-only">
+							<span><span class="free-text">free</span> website support and maintenance:</span> includes <span class="more-info"></span>minor design website modification and overall system updates
+						</li>
+
+						<li class="text-only">
+							<span><span class="free-text">free</span> blog site creation</span>:</span> includes separate <span class="more-info"></span>standard web designing, development, and copywriting
+						</li>
+
+
+						<li class="text-only">
+							<span><span class="free-text">free</span> management of all social media accounts:</span> <span class="more-info"></span>optimized weekly updates for 1 month
+						</li>
+
+						<li class="text-only">
+							<span><span class="free-text">free</span> tutorial about blog site administration:</span> for blog site content creation, media uploads, basic user traffic analytic tools
+						</li>
+
+					</ul>
+					<br><br>
 					<hr class="hr2">
 
-					<h1>SUMMARY</h1>
-					<br><br>
-					<h2 class="summary-h2">Contents</h2>
-						<ul>
-							<li class="text-only">photo</li>
-							<li class="text-only">video</li>
-							<li class="text-only">text content</li>
-						</ul>
-					<h2 class="summary-h2">Digital Marketing</h2>
-						<ul>
-							<li class="text-only">google search ranking</li>
-							<li class="text-only">social media visibility</li>							
-						</ul>
-					<h2 class="summary-h2">Website Design and Development</h2>
-						<ul>
-							<li class="text-only">lalala</li>							
-						</ul>
+					<div class="closing-notes">
 
-					<h2>Lorem ipsum dolor lorem ipsum amet lorem dolor ipsum ipsum amet dolor lorem.</h2>
-					<br>
-					<input type="submit" value="Submit">
+						<p class="twala-texts">
+							We <span class="sp-text">carefully tailored</span> this quotation just <span style="text-decoration: underline;">for you</span> - to the point that every web pages we presented were personally designed just <span style="text-decoration: underline;">for you</span>, from scratch.
+						</p>
+						<p class="twala-texts">
+							By combining your specifications and our in-depth research about <span style="color: #27496d;">Naah!im Bakery</span>, we have arrived to this quotation which has two special <span class="sp-text">classes:</span>
+
+							<ul class="naahim-checklist">
+					
+							<li class="text-only">
+								<span class="sps-text">High end</span> - which basically is, <span class="sp-text">this</span> whole quotation. Amounting to <span style="font-weight: 100; font-style: italic;">$30 000</span> <span>including</span> all expenses.
+							</li>
+
+							<li class="text-only">
+								<span class="sps-text">World class</span> - which technically is, the <span class="sp-text"> whole high end class</span> <span style="text-decoration: underline; font-weight: 200;">plus</span> <span>intensive marketing strategies</span> using digital strategists' <span>modern and advanced techniques</span> (e.g. 80/20 principle on online marketing, sales process engineering) to achieve <span style="text-decoration: underline; font-weight: 200;">wider share in the market</span> and <span style="text-decoration: underline; font-weight: 200;">international brand awareness. </span>
+							</li>
+
+							</ul>
+						</p>
+
+						<p class="twala-texts">
+							This sums up our initial input for your project.<br>
+							<br>
+							Please see our submitted <a href="http://twalaha-001-site1.ctempurl.com/#milestones" target="_blank" class="sp-text" style="text-decoration: underline;">proposal</a> for information about our (general) timeline and our milestones. We will provide more specific information upon finalizing our quotation.
+
+							<br>
+						</p>
+						<p class="twala-texts">
+							Again, we are <span class="sp-text">Twala</span> - and we are here to help you. :)
+						</p>
+					
+					</div>
+				
 				</form>
 
-				<!--- ACCORDION -->
-				<div class="accordion">
-				<ul id="cbp-ntaccordion" class="cbp-ntaccordion">
-					<li>
-						<h3 class="cbp-nttrigger">Content Marketing</h3>
-						<div class="cbp-ntcontent">							
-							<ul class="acc-list">
-								<li>photography / post processing</li>
-								<li>videography / video editing</li>
-								<li>copywriting</li>
-							</ul>							
-						</div>
-					</li>
-					<li>
-						<h3 class="cbp-nttrigger">Lalalala</h3>
-						<div class="cbp-ntcontent">
-							<ul class="acc-list">
-								<li>post processing</li>
-								<li>video editing</li>
-								<li>copywriting</li>
-							</ul>
-							
-						</div>
-					</li>
-					<li>
-						<h3 class="cbp-nttrigger">Hahahaha</h3>
-						<div class="cbp-ntcontent">
-							<ul class="acc-list">
-								<li>photography</li>
-								<li>videography</li>
-								<li>copywriting</li>
-							</ul>					
-						</div>
-					</li>					
-				</ul>
-				</div>
-				<!--- ACCORDION -->
-
-			</section class="quotation">				
-				<div class="q-col left">
-					<p>Lorem ipsum hey</p>
-				</div>
-
-				<div class="q-col right">
-					<p>Lorem ipsum yey</p>
-				</div>
-			</section>
-
-			</section>
-
-
+			</section>			
+	
 		</div><!-- /container -->
 		<script src="js/svgcheckbx.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/jquery.cbpNTAccordion.min.js"></script>
-		<script>
-			$( function() {
-				/*
-				- how to call the plugin:
-				$( selector ).cbpNTAccordion( [options] );
-				- destroy:
-				$( selector ).cbpNTAccordion( 'destroy' );
-				*/
-
-				$( '#cbp-ntaccordion' ).cbpNTAccordion();
-
-			} );
-		</script>
 	</body>
 </html>
